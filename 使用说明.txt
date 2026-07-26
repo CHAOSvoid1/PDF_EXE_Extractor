@@ -1,0 +1,21 @@
+PDF EXE 静态提取工具 1.1
+
+最重要：必须先把整个 ZIP 完整解压到普通文件夹，不能在 ZIP 预览窗口里直接双击 BAT。
+
+推荐步骤：
+1. 右键 ZIP -> 全部解压。
+2. 打开解压后的 PDF_EXE_Extractor_1.1 文件夹。
+3. 第一次运行：双击 install_and_run.bat。
+4. 以后运行：双击 run_tool.bat。
+5. 若仍打不开：双击 diagnose.bat，并查看 diagnostic_log.txt。
+
+本版修复：
+- 不再使用会隐藏错误的 pyw 启动方式。
+- Python、Tkinter 或依赖有问题时，命令窗口会保留并显示具体原因。
+- 检测到只解压了 BAT 文件时，会明确提示“程序文件不完整”。
+- 内部入口文件改为纯英文名，降低中文路径和批处理编码兼容问题。
+
+Python 要求：
+- Python 3.10 或更新版本。
+- 推荐从 python.org 安装。
+- 安装时勾选 Add Python to PATH。

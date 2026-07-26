@@ -1,0 +1,6 @@
+Version 1.1
+- Robust Windows launcher
+- Visible startup errors
+- Complete-extraction check
+- ASCII internal filenames
+- Environment diagnosis script
